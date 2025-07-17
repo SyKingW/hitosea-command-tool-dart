@@ -1,6 +1,6 @@
 name: hitosea
 
-version: 0.0.1
+version: 0.0.2
 description: A command-line tool written in Dart
 homepage: https://github.com/SyKingW/hitosea-command-tool-dart
 repository: https://github.com/SyKingW/hitosea-command-tool-dart
@@ -13,4 +13,7 @@ dependencies:
   path: ^1.9.0
 
 dev_dependencies:
-  
+
+executables:
+  hitosea: # 这将创建全局可用的 `my-tool` 命令
+
