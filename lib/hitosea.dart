@@ -12,7 +12,7 @@ Future<void> main(List<String> args) async {
   // parser.addFlag('n');
 
   parser.addOption("name", help: "请传入大驼峰类名(比如 TestName)");
-  parser.addFlag("genderClassDir", abbr: "g", defaultsTo: false, help: "是否要生成类名文件夹");
+  parser.addFlag("genderClassDir", abbr: "c", defaultsTo: false, help: "是否要生成类名文件夹");
   parser.addFlag("help", abbr: "h", defaultsTo: false, help: "帮助信息");
 
   // 解析命令行参数

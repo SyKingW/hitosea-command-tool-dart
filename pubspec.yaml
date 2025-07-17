@@ -1,7 +1,7 @@
 name: hitosea
 
-version: 0.0.2
-description: A command-line tool written in Dart
+version: 0.0.3
+description: 自动生成代码文件脚本
 homepage: https://github.com/SyKingW/hitosea-command-tool-dart
 repository: https://github.com/SyKingW/hitosea-command-tool-dart
 
@@ -12,8 +12,6 @@ dependencies:
   args: ^2.7.0
   path: ^1.9.0
 
-dev_dependencies:
-
 executables:
-  hitosea: # 这将创建全局可用的 `my-tool` 命令
+  hitosea: # 这将创建全局可用的 `hitosea` 命令
 
