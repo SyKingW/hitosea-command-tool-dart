@@ -2,6 +2,12 @@
 
 自动生成代码文件脚本
 
+dart 安装
+
+```bash
+dart pub global activate hitosea
+```
+
 查看帮助
 
 ```bash
